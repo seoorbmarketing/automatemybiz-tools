@@ -87,9 +87,6 @@ a:hover {
   background: var(--dark-blue);
   color: var(--white);
   padding: 1rem 0;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -100,13 +97,24 @@ a:hover {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--white);
+  text-decoration: none;
 }
 
 .logo:hover {
-  color: var(--impact-blue);
+  color: var(--white);
+  opacity: 0.9;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
 
 .nav {
@@ -202,6 +210,48 @@ a:hover {
   font-size: 1.125rem;
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero-buttons .btn {
+  min-width: 180px;
+  font-size: 1rem;
+  padding: 0.875rem 2rem;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hero-buttons .btn-primary {
+  background: var(--white);
+  color: var(--dark-blue);
+}
+
+.hero-buttons .btn-primary:hover {
+  background: #F5F5F5;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero-buttons .btn-secondary {
+  background: transparent;
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+
+.hero-buttons .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* Tool Cards */
@@ -378,6 +428,25 @@ a:hover {
 
 .footer-link:hover {
   color: var(--impact-blue);
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.footer-logo img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.footer-logo span {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--white);
 }
 
 .footer-bottom {
