@@ -1,0 +1,17 @@
+{
+  "name": "automatemybiz-tools",
+  "version": "1.0.0",
+  "description": "AI-powered productivity tools website",
+  "scripts": {
+    "dev": "echo 'This is a static site - use a local server like Live Server'",
+    "build": "mkdir -p public && cp -r *.html assets chrome-extensions free-tools legal api public/ 2>/dev/null || true"
+  },
+  "keywords": [
+    "ai",
+    "tools",
+    "chrome-extension",
+    "productivity"
+  ],
+  "author": "AutomateMyBiz",
+  "license": "MIT"
+}

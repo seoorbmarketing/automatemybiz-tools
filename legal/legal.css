@@ -1,0 +1,65 @@
+/* Legal Pages Styles */
+
+.legal-content {
+  padding: 3rem 0;
+  min-height: calc(100vh - 200px);
+}
+
+.legal-content h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: var(--dark-blue);
+}
+
+.last-updated {
+  font-size: 0.875rem;
+  color: var(--gray);
+  margin-bottom: 2rem;
+}
+
+.legal-text {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.legal-text h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--dark-blue);
+}
+
+.legal-text h3 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--light-navy);
+}
+
+.legal-text h4 {
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--light-navy);
+}
+
+.legal-text p {
+  margin-bottom: 1rem;
+  color: var(--light-navy);
+}
+
+.legal-text ul {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.legal-text li {
+  margin-bottom: 0.5rem;
+  color: var(--light-navy);
+}
+
+.legal-text strong {
+  color: var(--dark-blue);
+  font-weight: 600;
+}
